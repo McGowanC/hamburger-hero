@@ -1,0 +1,16 @@
+<% include partials/header.ejs %>
+
+<div class="hamburger-container">
+<% data.forEach(function(element){ %>
+    <div class="hamburger-entry">
+        <div class="image-container">
+            <img src="<%=element.image %>" alt=""> 
+        </div>
+        <h1><%= element.name %></h1>
+        <h3><%= element.rating %>/100</h3>
+    </div>
+<% }) %>
+
+</div>
+
+<% include partials/footer.ejs %>
