@@ -21,6 +21,12 @@ nav a {
     padding: 0 20px;
 }
 
+#addASpot {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 1.2em
+}
+
 
 /*CSS for Hamburger entries */
 
@@ -47,4 +53,11 @@ nav a {
 img {
  width: 100%;    
     
+}
+
+
+/*CSS for submit burger page */
+
+label, input {
+    margin: 0 0 10px 0;
 }

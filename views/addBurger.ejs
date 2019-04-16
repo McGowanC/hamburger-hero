@@ -1,10 +1,15 @@
+<% include partials/header %>
+
 <h1>Submit a new burger to our ranking database</h1>
 
 
 <form action="/addBurgerPostRequest" method="POST">
     <label for="restaurantName">Restaurant Name</label>
-    <input type="text" id="restaurantName" name="restaurantName" placeholder="Input name here">
-    <label for="burgerRating">Burger Ratig</label>
-    <input type="number" id="burgerRating" name="burgerRating" placeholder="Give a rating between 1 and 5">
+    <input type="text" id="restaurantName" name="restaurantName" placeholder="Input name here"></br>
+    <label for="burgerRating">Burger Rating</label>
+    <input type="number" id="burgerRating" name="burgerRating" placeholder="Give a rating between 1 and 5"></br>
+    <label for="burgerImage">Burger Image</label>
+    <input type="text" id="burgerImage" name="burgerImage" placeholder="Paste in the image url right here!"></br>
     <input type="submit">
 </form>
+ 

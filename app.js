@@ -67,7 +67,7 @@ app.post("/addBurgerPostRequest", function(req, res){
     let newBurger = {
         name: req.body.restaurantName,
         rating: req.body.burgerRating,
-        image: ""
+        image: req.body.burgerImage
     }
     
     burgersDatabase.push(newBurger)
